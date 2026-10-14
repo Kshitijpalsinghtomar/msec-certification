@@ -1,0 +1,36 @@
+# Data files (large, sensitive)
+*.csv
+*.jsonl
+*.json
+pilot_*.csv
+pilot_*.jsonl
+results_*/
+msec_*.csv
+msec_*.jsonl
+
+# API keys
+keys.txt
+*.key
+.env
+
+# Paper drafts (keep private until submission)
+paper_*.md
+*.tex
+*.pdf
+prereg_*.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
